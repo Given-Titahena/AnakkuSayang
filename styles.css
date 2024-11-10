@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Latar belakang biru muda */
+    text-align: center;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 600px; /* Lebar maksimum slideshow */
+    margin: auto;
+    border: 2px solid #ddd; /* Border untuk slideshow */
+    border-radius: 10px; /* Sudut membulat */
+    overflow: hidden; /* Menyembunyikan bagian yang melampaui */
+}
+
+.slide {
+    display: none; /* Sembunyikan semua slide secara default */
+}
+
+img {
+    width: 100%; /* Mengatur gambar agar memenuhi lebar kontainer */
+    border-radius: 10px; /* Sudut membulat untuk gambar */
+}
+
+.caption {
+    padding: 10px;
+    font-size: 18px;
+    color: #333; /* Warna teks */
+}
+
+.button {
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: #ff3366; /* Warna tombol */
+    color: white; /* Warna teks tombol */
+    border: none;
+    border-radius: 5px; /* Sudut membulat tombol */
+    margin: 10px;
+}
